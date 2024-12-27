@@ -1,0 +1,9 @@
+{
+  "src": [
+    "pages/Login",
+    "pages/register",
+    "pages/Index",
+    "pages/detail",
+    "pages/settlement"
+  ]
+}

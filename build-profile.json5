@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\86181\\.ohos\\config\\auto_debug_shopping_com.example.shopping_420086000104069146.cer",
+          "storePassword": "0000001ACCC76714C50D3F0C7572A365B49B4090041C27B20387544AF7C10B30A08250ADD352BCAFCE60",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001AD0D2A85A27428C718736194E5CC61E06F447D9E71DA287029CCBF2E1852C845EA1765B20397E",
+          "profile": "C:\\Users\\86181\\.ohos\\config\\auto_debug_shopping_com.example.shopping_420086000104069146.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\86181\\.ohos\\config\\auto_debug_shopping_com.example.shopping_420086000104069146.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
